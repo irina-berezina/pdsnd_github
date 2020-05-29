@@ -1,15 +1,24 @@
 ### Date created
-Include the date you created this project and README file.
+29.05.2020
+
 
 ### Project Title
-Replace the Project Title
+Bike Share Statistics
+
 
 ### Description
-Describe what your project is about and what it does
+The project gives information about shared bicycles used in asked cities.
+
+
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.read_csv
+new_york_city.read_csv
+washington.read_csv
+README.md
+.gitignore
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+none were used
