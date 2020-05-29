@@ -7,7 +7,7 @@ Bike Share Statistics
 
 
 ### Description
-The project gives information about shared bicycles used in asked cities.
+The project gives information about shared bicycles used in asked cities. It includes Chicago, New York City and Washington
 
 
 
