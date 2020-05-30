@@ -112,11 +112,11 @@ def station_stats(df):
 
     # TO DO: display most commonly used start station
 
-    print('The most common start station:', df['Start Station'].mode()[0])
+    print('The most common start station for renting bike:', df['Start Station'].mode()[0])
 
     # TO DO: display most commonly used end station
 
-    print('The most common end station:', df['End Station'].mode()[0])
+    print('The most common end station for returning bike:', df['End Station'].mode()[0])
 
 
     # TO DO: display most frequent combination of start station and end station trip
@@ -161,8 +161,8 @@ def user_stats(df):
     # TO DO: Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df:
         most_common_year_of_birth=df['Birth Year'].mode()[0]
-        print('The oldest person was born in:', df['Birth Year'].min())
-        print('The youngest person was born in:', df['Birth Year'].max())
+        print('The oldest person that used the bike was born in:', df['Birth Year'].min())
+        print('The youngest person that usde the bike was born in:', df['Birth Year'].max())
         print('The most common year of birth:', most_common_year_of_birth)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
